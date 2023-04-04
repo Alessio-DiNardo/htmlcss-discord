@@ -49,6 +49,10 @@ nav{
     padding-top: 7px;
 }
 
+.flag{
+    width: 2rem;
+}
+
 .login{
     height: 35px;
     border: none;
@@ -56,7 +60,15 @@ nav{
     padding: 0.7rem;
     border-radius: 0.7rem;
 }
-    
+
+.btn{
+    height: 35px;
+    border: none;
+    background-color: rgb(92, 143, 238);
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+}
+
 h1{
     font-size: 3rem;
     margin: 2rem
@@ -64,6 +76,11 @@ h1{
 
 h2{
     font-size: 2.8rem;
+    padding-bottom: 1rem;
+}
+
+h3{
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -78,6 +95,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     padding-top: 7px;
+    line-height: 2rem;
 }
 
 li{
@@ -112,7 +130,7 @@ li{
 
 .back-big{
     background-color: rgb(184, 184, 184);
-    height: 970px;
+    height: 1045px;
 }
 
 .back-black{
@@ -143,7 +161,6 @@ li{
 
 
 .box-pink{
-    background-color: rgb(184, 127, 154);
     height: 350px;
     width: 40%;
     padding-top: 5rem;
@@ -157,10 +174,9 @@ li{
 }
 
 .box-salmon{
-    background-color: rgb(155, 81, 93);
     height: 350px;
     width: 35%;
-    border: 2px black dashed;
+    padding-top: 4rem;
 }
 
 .box-acqua{
@@ -171,9 +187,8 @@ li{
 }
 
 .box-cyan{
-    background-color: aquamarine;
     height: 40px;
-    width: 799px;
+    width: 100%;
 }
 
 .mini-box{
@@ -182,3 +197,17 @@ li{
     font-size: 1rem;
     
 }
+
+.list-flex{
+    flex-direction: column;
+    display: flex;
+}
+
+.text-blue{
+    color: #255ee9;
+}
+
+.text-white{
+    color: white;
+}
+
