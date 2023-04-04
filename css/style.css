@@ -59,8 +59,14 @@ h1{
     margin: 2rem
 }
 
+h2{
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+}
+
 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 ul{
@@ -94,7 +100,7 @@ li{
 
 .back-white{
     background-color: white;
-    height: 400px;
+    height: 550px;
     width: 100%;
 }
 
@@ -128,17 +134,19 @@ li{
 }
 
 .box-blue{
-    background-color: rgb(63, 137, 235);
     height: 350px;
     width: 60%;
-    border: 2px black dashed;
+    align-items: flex-start;
+    display: flex;
 }
+
 
 .box-pink{
     background-color: rgb(184, 127, 154);
     height: 350px;
     width: 40%;
-    border: 2px black dashed
+    padding-top: 5rem;
+    padding-left: 1rem;
 }
 
 .box-green{
