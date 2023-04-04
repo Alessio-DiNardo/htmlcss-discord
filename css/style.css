@@ -26,19 +26,22 @@
     margin-right: 1rem;
 }
 
-.black{
+.mac{
     background-color: #1d1c1c;
     color: white;
 }
 
+.windows{
+    background-color: rgb(92, 143, 238);
+    color: white;
+
+}
 
 nav{
     height: 35px;
     width: 600px;
     color: white;
     margin-left: 1rem;
-    
-    
 }
 
 .logo{
@@ -96,8 +99,6 @@ li{
     background-position: center;
 }
 
-
-
 .back-white{
     background-color: white;
     height: 550px;
@@ -111,7 +112,7 @@ li{
 
 .back-big{
     background-color: rgb(184, 184, 184);
-    height: 650px;
+    height: 970px;
 }
 
 .back-black{
@@ -150,10 +151,9 @@ li{
 }
 
 .box-green{
-    background-color: green;
-    height: 600px;
     width: 100%;
-    border: 2px black dashed;
+    text-align: center;
+    padding-top: 6rem;
 }
 
 .box-salmon{
