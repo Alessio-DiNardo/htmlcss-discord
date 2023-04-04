@@ -18,31 +18,27 @@
 }
 
 nav{
-    background-color: orange;
     height: 35px;
     width: 600px;
-    border: 2px black dashed;
+    color: white;
+    margin-left: 1rem;
+    
     
 }
 
 .logo{
-    background-color: orange;
-    height: 35px;
-    width: 100px;
-    border: 2px black dashed;
     justify-content: start;
     padding-top: 7px;
 }
 
 .login{
-    background-color: orange;
     height: 35px;
-    width: 100px;
-    border: 2px black dashed;
-    display: flex;
-    justify-content: end;
-    padding-top: 7px;
+    border: none;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
 }
+    
 
 ul{
     list-style-type: none;
@@ -53,11 +49,11 @@ ul{
 }
 
 li{
-    margin-right: 7px;
+    margin-right: 16px;
 }
 
 .header-pad{
-    background-color: aqua;
+    background-color: #255ee9;
     width: 100%;
     height: 70px;
     display: flex;
