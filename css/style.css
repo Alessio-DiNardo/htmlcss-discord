@@ -94,13 +94,18 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 4rem;
-    line-height: 2rem;
+    padding-top: 1rem;
+    
+
 }
 
 li{
     margin-right: 16px;
 
+}
+
+.list{
+    padding-top: 4rem;
 }
 
 .header-pad{
@@ -113,7 +118,7 @@ li{
 .second-header{
     height: 400px;
     width: 100%;
-    background-image: url("/img/jumbo.png");
+    background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
 }
